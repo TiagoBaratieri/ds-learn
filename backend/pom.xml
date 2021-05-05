@@ -12,7 +12,7 @@
     <artifactId>dslearn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>dslearn</name>
-    <description>Demo project for Spring Boot</description>
+    <description>DSLearn Bootcamp</description>
     <properties>
         <java.version>11</java.version>
     </properties>
