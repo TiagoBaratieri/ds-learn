@@ -1,6 +1,7 @@
 package com.baratieri.dslearn.resouces;
 
 import com.baratieri.dslearn.dto.UserDTO;
+import com.baratieri.dslearn.services.AuthService;
 import com.baratieri.dslearn.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserResource {
 
     @Autowired
-   private  UserService userService;
+    private UserService userService;
 
     @GetMapping(value = "/{id}")
     public ResponseEntity<UserDTO> findById(@PathVariable Long id){
