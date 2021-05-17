@@ -1,7 +1,6 @@
-package com.baratieri.dslearn.resouces;
+package com.baratieri.dslearn.resources;
 
 import com.baratieri.dslearn.dto.UserDTO;
-import com.baratieri.dslearn.services.AuthService;
 import com.baratieri.dslearn.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

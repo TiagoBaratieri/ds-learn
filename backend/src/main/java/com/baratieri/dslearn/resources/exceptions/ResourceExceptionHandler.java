@@ -1,4 +1,4 @@
-package com.baratieri.dslearn.resouces.exceptions;
+package com.baratieri.dslearn.resources.exceptions;
 
 import com.baratieri.dslearn.services.exceptions.DataBaseException;
 import com.baratieri.dslearn.services.exceptions.ForbiddenException;

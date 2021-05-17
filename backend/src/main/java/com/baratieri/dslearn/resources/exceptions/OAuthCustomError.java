@@ -1,4 +1,4 @@
-package com.baratieri.dslearn.resouces.exceptions;
+package com.baratieri.dslearn.resources.exceptions;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
